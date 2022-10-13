@@ -1,4 +1,13 @@
 # Pygame-Space-Invader
-A simple game created using Pythion/Pygame the Python modules designed for writing video games.
+A simple retro game created using Pythion/Pygame the Python modules designed for writing video games.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+This simple game is called space invader or also known as space shooter. It is a game in which a spaceship
+has to destroy other space ships in order to progress. You also have to try and not get shot because the main spaceship
+(The player) has a certain amount of health, you must avoid the incoming bullets by moving around.
+
+The controls for the game are the following: 
+* A: to move left
+* S: to move down
+* D: to move right
+* W: to move upwards
+* Spacebar: to shoot
