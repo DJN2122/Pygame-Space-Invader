@@ -28,8 +28,8 @@ YELLOW_LASER = pygame.image.load(os.path.join("assets", "pixel_laser_yellow.png"
 BG = pygame.transform.scale(pygame.image.load(os.path.join("assets", "background-black.png")), (WIDTH, HEIGHT))
 
 # Audio
-mixer.music.load('audio/background.wav')
-mixer.music.play(-1)
+#mixer.music.load('audio/background.wav')
+#mixer.music.play(-1)
 
 class Laser:
     def __init__(self, x, y, img):
@@ -265,6 +265,8 @@ def main_menu():
             if event.type == pygame.QUIT:
                 run = False
             if event.type == pygame.MOUSEBUTTONDOWN:
+                mixer.music.load('audio/background.wav')
+                mixer.music.play(-1)
                 main()
     pygame.quit()
 

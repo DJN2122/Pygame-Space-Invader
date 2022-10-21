@@ -7,7 +7,9 @@ has to destroy other space ships in order to progress. You also have to try and 
 
 The controls for the game are the following: 
 * A: to move left
-* S: to move down
+* S: to move down 
 * D: to move right
 * W: to move upwards
 * Spacebar: to shoot
+
+![img.png](img.png)
